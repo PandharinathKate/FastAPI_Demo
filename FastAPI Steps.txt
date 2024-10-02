@@ -1,0 +1,12 @@
+#CREATE VERTUAL ENVIRONMENT
+python -m venv venv
+
+#ACTIVATE VERTUAL ENVIRONMENT
+venv\Scripts\activate
+
+#INSTALL FASTAPI
+pip install fastapi uvicorn
+
+#RUN FASTAPI
+uvicorn FILE_NAME:app --reload
+
